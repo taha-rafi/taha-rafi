@@ -35,9 +35,6 @@
   <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
 </div>
 
-###
-
-<br clear="both">
 
 <div align="left">
   <a href="mailto:taahaa.raafi@gmail.com" target="_blank">
@@ -48,9 +45,6 @@
   </a>
 </div>
 
-###
-
-<br clear="both">
 
 <img align="right" height="150" src="https://user-images.githubusercontent.com/74038190/215283228-89a6af16-23b1-4144-ac9b-064dc973b3db.gif"  />
 
