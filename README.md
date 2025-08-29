@@ -1,10 +1,15 @@
 <br clear="both">
 
-<h1 align="left">Hi there!</h1>
+<h1 align="left">Hi there 👋 I'm Taha Rafi</h1>
 
 ###
 
-<p align="left">Welcome to my GitHub repository! I'm Taha, a passionate Laravel PHP developer. This repository is where I share my latest projects, code snippets, and insights into Laravel development.</p>
+<p align="left">
+💻 <b>Senior Software Engineer (Backend – PHP/Laravel)</b> with 4+ years of experience in building scalable and efficient web applications.  
+I specialize in developing <b>ERP, POS, HRMS, and API-driven systems</b>, integrating payment gateways, and optimizing backend performance.  
+
+Currently working at <b>Meezotech (Darent.com)</b>, where I focus on backend architecture, RESTful APIs, and high-performance systems.  
+</p>
 
 ###
 
@@ -18,23 +23,10 @@
 <br clear="both">
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=wordpress" height="30" alt="wordpress logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,js,vue,react,nodejs,wordpress,bootstrap,tailwind,html,css,git,aws" height="30" alt="skills logos" />
 </div>
 
+###
 
 <div align="left">
   <a href="mailto:taahaa.raafi@gmail.com" target="_blank">
@@ -44,7 +36,6 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
 </div>
-
 
 <img align="right" height="150" src="https://user-images.githubusercontent.com/74038190/215283228-89a6af16-23b1-4144-ac9b-064dc973b3db.gif"  />
 
