@@ -1,64 +1,89 @@
-<br clear="both">
+# Hi there 👋 I'm Taha Rafi
 
-<h1 align="left">Hi there 👋 I'm Taha Rafi</h1>
+💻 **Senior Software Engineer (Backend – PHP/Laravel)** with 5+ years of experience building 
+scalable, enterprise-grade web applications.
 
-<p align="left">
-💻 <b>Senior Software Engineer (Backend – PHP/Laravel)</b> with 5+ years of experience building scalable and efficient web applications.<br>
-Specializing in <b>ERP, POS, HRMS, and API-driven systems</b>, payment gateway integrations, and backend performance optimization.<br>
-Currently at <b>MDK Japan</b> — leading the revamp of mdkjapan.com and upgrading tech infrastructure across MDK Group using Laravel, React.js, and Oracle databases.<br>
-Also serving as <b>Technical Lead</b> at Revolutionary Technologies, driving architecture decisions and overseeing enterprise systems.<br>
-Open to <b>remote roles</b>, <b>freelance projects</b>, and <b>full-time opportunities</b>.
-</p>
+Specialized in **ERP, POS, HRMS, TMS, CRM, OMS** systems, payment gateway integrations, 
+REST API design, and backend performance optimization.
 
----
+🏢 **Currently at MDK Corporation Japan** — Leading the revamp of mdkjapan.com using 
+Laravel, React.js, and Oracle DB, plus building CRM and data sync systems.
 
-### 🚀 Currently working on
-- 🔧 mdkjapan.com revamp — Laravel, React.js, Oracle
-- 🏗️ Technical Lead — ERP, POS, HRMS systems at Revolutionary Technologies
-- 💼 Freelance Laravel and WordPress projects
+🛠️ **Technical Lead at Revolutionary Technologies** — Architecting and overseeing 20+ 
+enterprise systems across multiple clients.
+
+🌍 Open to **remote roles**, freelance projects, and full-time opportunities.
 
 ---
 
-### 🛠️ Tech Stack
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,react,js,vue,nodejs,wordpress,bootstrap,tailwind,html,css,git,aws,docker" height="32" alt="skills" />
-</div>
-
----
-
-### 💡 Expertise
-`ERP Systems` `POS Systems` `HRMS and Payroll` `Order Management (OMS)`
-`Payment Gateway Integration` `Courier APIs (PostEx, Leopard, Daraz)`
-`REST API Design` `Scalable Architecture` `Performance Optimization`
-`Oracle Database` `MySQL` `AWS` `Docker`
+## 🚀 Currently Working On
+- 🔧 **mdkjapan.com revamp** — Laravel, React.js, Oracle DB
+- 🏗️ **SaaS TMS** — Multi-tenant Transport Management System (PHP + TypeScript)
+- 🤖 **AI Tools** — WhatsApp agent, Short content generator (Gemini AI)
+- 💼 **Freelance** Laravel & WordPress projects
 
 ---
 
-### 📊 GitHub Stats
+## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taha-rafi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=taha-rafi&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph" />
-</div>
+**Backend**
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_APIs-009688?style=flat&logo=fastapi&logoColor=white)
+
+**Frontend**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+
+**Database**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white)
+
+**Tools & Cloud**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
 
 ---
 
-### 📬 Connect with me
-
-<div align="left">
-  <a href="mailto:taahaa.raafi@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail" />
-  </a>
-  <a href="https://linkedin.com/in/taha-rafi" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin" />
-  </a>
-</div>
-
-<img align="right" height="150" src="https://user-images.githubusercontent.com/74038190/215283228-89a6af16-23b1-4144-ac9b-064dc973b3db.gif" />
-
-<br clear="both">
+## 💡 Expertise
+`ERP Systems` `POS Systems` `HRMS & Payroll` `OMS` `TMS` `CRM`
+`Payment Gateway Integration` `Courier APIs` `REST API Design`
+`Scalable Architecture` `Performance Optimization` `Oracle DB` `MySQL` `AWS` `Docker`
 
 ---
 
-<img src="https://raw.githubusercontent.com/taha-rafi/taha-rafi/output/snake.svg" alt="Snake animation" />
+## 📌 Featured Projects
+
+| Project | Tech | Description |
+|---|---|---|
+| 🌐 MDK Japan Website | Laravel, React.js, Oracle | Enterprise website revamp for MDK Corporation Japan |
+| 🚛 SaaS TMS | PHP, TypeScript | Multi-tenant Transport Management System |
+| ✍️ AI Writer Panel | Laravel, Vue.js | AI-powered content writer with Ant Design |
+| ⚡ Short Genie | TypeScript, Gemini AI | AI short content generator |
+| 🏭 ERP System | PHP, Laravel | Full Enterprise Resource Planning system |
+| 📊 Sales Dashboard | Laravel, SCSS | Integrated sales dashboard with courier APIs |
+
+---
+
+## 📊 GitHub Stats
+
+![Taha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=taha-rafi&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=taha-rafi&layout=compact&theme=dark&hide_border=true)
+
+---
+
+## 📬 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/taha-rafi)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/taha-rafi)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:taahaa.raafi@gmail.com)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=flat&logo=linktree&logoColor=white)](https://linktr.ee/taharafi)
