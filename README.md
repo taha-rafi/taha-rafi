@@ -15,30 +15,6 @@
 
 ---
 
-## 🏆 GitHub Certified Achievements
-
-<div align="center">
-  <a href="https://github.com/taha-rafi?tab=achievements">
-    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="100px" alt="Pull Shark Gold x3" />
-  </a>
-  <a href="https://github.com/taha-rafi?tab=achievements">
-    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-7695fe4122e2.png" width="100px" alt="Pair Extraordinaire Gold x3" />
-  </a>
-  <a href="https://github.com/taha-rafi?tab=achievements">
-    <img src="https://github.githubassets.com/assets/galaxy-brain-default-877717454ba7.png" width="100px" alt="Galaxy Brain Gold x3" />
-  </a>
-  <a href="https://github.com/taha-rafi?tab=achievements">
-    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aecff897.png" width="100px" alt="Quickdraw" />
-  </a>
-  <a href="https://github.com/taha-rafi?tab=achievements">
-    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff42e13.png" width="100px" alt="YOLO" />
-  </a>
-  <br>
-  <strong>🦈 Pull Shark (x3 Gold) • 👯 Pair Extraordinaire (x3 Gold) • 🧠 Galaxy Brain (x3 Gold) • ⚡ Quickdraw • 🚀 YOLO</strong>
-</div>
-
----
-
 ## 👨‍💻 About Me
 
 - 🏢 **Technical Lead at MDK Corporation Japan**: Spearheading enterprise platform modernization using **Laravel, React.js, and Oracle DB**, alongside building high-throughput CRM and automated multi-database synchronization pipelines.
