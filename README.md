@@ -9,6 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Taha_Rafi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/taha-rafi)
 [![Twitter/X](https://img.shields.io/badge/X-@taha____rafi-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/taha__rafi)
 [![Email](https://img.shields.io/badge/Email-taahaa.raafi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:taahaa.raafi@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=taha-rafi&style=for-the-badge&color=2088FF&label=PROFILE+VIEWS)](https://github.com/taha-rafi)
 
 </div>
 
@@ -92,11 +93,16 @@
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & Repository Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taha-rafi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Taha Rafi GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taha-rafi&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=taha-rafi&theme=tokyonight" alt="GitHub Profile Details" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=taha-rafi&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=taha-rafi&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=taha-rafi&theme=tokyonight" alt="Repos Per Language" />
 </div>
 
 ---
