@@ -21,8 +21,9 @@
 - ⚡ **Engineering Leadership**: Architected, deployed, and scaled **25+ production-grade enterprise systems** across fintech, logistics, e-commerce, and SaaS.
 - 📦 **Open-Source Creator**: Author of [**php-zkteco**](https://github.com/taha-rafi/php-zkteco) — Pure native PHP 8.x socket communication library for ZKTeco biometric devices with reverse-engineered CommKey auth.
 - 📈 **Quantitative Trading & Web3**: Developer of [**Apex Algo Trader**](https://github.com/taha-rafi/apex-algo-trader) — Autonomous algorithmic trading engine for Hyperliquid Perpetual DEX with risk management & sub-second execution.
+- 🕷️ **Data Engineering & Automation**: Engineered high-throughput scraping pipelines & automated data extraction tools (USPTO Trademark Registries, Craigslist, marketplace pricing) with anti-bot bypass & concurrent worker pools.
 - 🌐 **Personal Website**: Check out my case studies, interactive tools, and technical articles at [**taharafi.com**](https://taharafi.com).
-- 🎯 **Core Domains**: `Enterprise ERP` • `SaaS TMS` • `Algorithmic Trading` • `Biometrics & Sockets` • `HRMS & Payroll` • `POS` • `GenAI Tools` • `REST & WebSocket APIs`
+- 🎯 **Core Domains**: `Enterprise ERP` • `SaaS TMS` • `Web Scraping & ETL` • `Algorithmic Trading` • `Biometrics & Sockets` • `HRMS & Payroll` • `POS` • `GenAI Tools` • `REST & WebSocket APIs`
 
 ---
 
@@ -64,6 +65,17 @@
     </td>
   </tr>
   <tr>
+    <td><strong>Data & Scraping</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Web_Scraping-3776AB?style=flat-square&logo=python&logoColor=white" alt="Web Scraping" />
+      <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" />
+      <img src="https://img.shields.io/badge/BeautifulSoup4-00599C?style=flat-square&logo=python&logoColor=white" alt="BS4" />
+      <img src="https://img.shields.io/badge/OpenPyXL_%2F_Pandas-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Data Export" />
+      <img src="https://img.shields.io/badge/Anti--Bot_%26_CAPTCHA-FF5722?style=flat-square&logo=googlechrome&logoColor=white" alt="Anti-Bot" />
+      <img src="https://img.shields.io/badge/PyInstaller_EXE-000000?style=flat-square&logo=windows&logoColor=white" alt="PyInstaller" />
+    </td>
+  </tr>
+  <tr>
     <td><strong>Cloud, AI & DevOps</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
@@ -84,6 +96,8 @@
 | :--- | :--- | :--- |
 | 📊 [**Apex Algo Trader**](https://github.com/taha-rafi/apex-algo-trader) | `Python`, `Hyperliquid DEX`, `Algo Trading` | Autonomous algorithmic trading bot for Perpetual DEX with real-time WebSocket market feeds, leverage risk controls & order routing. |
 | 🔐 [**php-zkteco**](https://github.com/taha-rafi/php-zkteco) | `PHP 8.x`, `Socket Protocol`, `Packagist` | Pure native socket library for ZKTeco Biometric Devices with reverse-engineered CommKey auth. 100% native PHP implementation. |
+| 🏛️ **USPTO Trademark Intelligence Engine** | `Python`, `TSDR & ODP APIs`, `OpenPyXL` | Dual-tier USPTO trademark data pipeline with live serial discovery, daily bulk XML processing, contact enrichment & safe XLSX/CSV export. |
+| 🔍 **Craigslist Lead Intelligence & Automation** | `Python`, `Selenium`, `CapSolver`, `BS4` | High-throughput search scraper & contact reveal pipeline with automated captcha solving, multi-worker concurrency & spreadsheet generation. |
 | 🎬 [**ShortGenie**](https://github.com/taha-rafi/shortgenie) | `React`, `TypeScript`, `Google Gemini AI` | AI-powered automated video studio creating viral short-form scripts, visual scene prompts & synchronized audio narratives. |
 | 🚗 [**Car Rental Management System**](https://github.com/taha-rafi/Django-Rental-Car-sytstem) | `Python`, `Django 4`, `Bootstrap 5` | Full-scale vehicle fleet rental management platform with automated reservations, pricing engines & customer KYC portals. |
 | 🖋️ [**Writerifly AI & Admin Suite**](https://github.com/taha-rafi/Panel-With-Laravel-and-vue) | `Laravel`, `Vue 3`, `Ant Design` | SaaS admin dashboard featuring AI content workflows, Stripe subscriptions, dynamic charts & fine-grained RBAC permissions. |
