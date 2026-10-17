@@ -3,12 +3,13 @@
 # 👋 Hi there, I'm Taha Rafi
 
 ### Senior Software Engineer & Technical Lead • Distributed Systems Architect
-**Specialized in PHP / Laravel, Python, Algorithmic Trading Systems, Enterprise Architecture (ERP/TMS/CRM/HRMS), & GenAI Applications**
+**Specialized in PHP / Laravel, Python, Biometric Hardware Protocols, Algorithmic Trading Systems, Enterprise Architecture (ERP/TMS/CRM/HRMS), & GenAI Applications**
 
 [![Website](https://img.shields.io/badge/Portfolio-taharafi.com-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://taharafi.com)
+[![Packagist](https://img.shields.io/badge/Packagist-taha--rafi-F28D1A?style=for-the-badge&logo=packagist&logoColor=white)](https://packagist.org/packages/taha-rafi/php-zkteco)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Taha_Rafi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/taha-rafi)
 [![Twitter/X](https://img.shields.io/badge/X-@taha____rafi-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/taha__rafi)
-[![Email](https://img.shields.io/badge/Email-taahaa.raafi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:taahaa.raafi@gmail.com)
+[![Email](https://img.shields.io/badge/Email-connect@taharafi.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@taharafi.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=taha-rafi&style=for-the-badge&color=2088FF&label=PROFILE+VIEWS)](https://github.com/taha-rafi)
 
 </div>
@@ -19,11 +20,33 @@
 
 - 🏢 **Technical Lead at MDK Corporation Japan**: Spearheading enterprise platform modernization using **Laravel, React.js, and Oracle DB**, alongside building high-throughput CRM and automated multi-database synchronization pipelines.
 - ⚡ **Engineering Leadership**: Architected, deployed, and scaled **25+ production-grade enterprise systems** across fintech, logistics, e-commerce, and SaaS.
-- 📦 **Open-Source Creator**: Author of [**php-zkteco**](https://github.com/taha-rafi/php-zkteco) — Pure native PHP 8.x socket communication library for ZKTeco biometric devices with reverse-engineered CommKey auth.
+- 📦 **Open-Source Creator ([`taha-rafi/php-zkteco` v2.0](https://github.com/taha-rafi/php-zkteco))**: Reverse-engineered ZKTeco's MIPS32 firmware (`standalonecomm`) to build the **first and only ZKTeco library** capable of **writing attendance punches directly into physical ZKTeco hardware `ATT_LOG` memory** (`CMD_SET_DATA 3001`), selective hardware log deletion (`CMD_TIME_ATTLOG_DELE 10005`), Dual-Protocol `TCP` + `UDP` socket engine, native `MakeKey` CommKey authentication, built-in ADMS / iClock Cloud Push Server, and real-time HMAC-SHA256 Webhooks.
 - 📈 **Quantitative Trading & Web3**: Developer of [**Apex Algo Trader**](https://github.com/taha-rafi/apex-algo-trader) — Autonomous algorithmic trading engine for Hyperliquid Perpetual DEX with risk management & sub-second execution.
 - 🕷️ **Data Engineering & Automation**: Engineered high-throughput scraping pipelines & automated data extraction tools (USPTO Trademark Registries, Craigslist, marketplace pricing) with anti-bot bypass & concurrent worker pools.
-- 🌐 **Personal Website**: Check out my case studies, interactive tools, and technical articles at [**taharafi.com**](https://taharafi.com).
-- 🎯 **Core Domains**: `Enterprise ERP` • `SaaS TMS` • `Web Scraping & ETL` • `Algorithmic Trading` • `Biometrics & Sockets` • `HRMS & Payroll` • `POS` • `GenAI Tools` • `REST & WebSocket APIs`
+- 🌐 **Personal Website**: Check out my case studies, interactive tools, and technical articles at [**taharafi.com**](https://taharafi.com) (Contact: [**connect@taharafi.com**](mailto:connect@taharafi.com)).
+- 🎯 **Core Domains**: `Enterprise ERP` • `Biometric Protocols (TCP/UDP/ADMS)` • `SaaS TMS` • `Web Scraping & ETL` • `Algorithmic Trading` • `HRMS & Payroll` • `POS` • `GenAI Tools` • `REST & WebSocket APIs`
+
+---
+
+## 🚀 Flagship Open-Source Package: [`taha-rafi/php-zkteco` v2.0](https://github.com/taha-rafi/php-zkteco)
+
+<div align="center">
+
+[![Latest Stable Version](https://poser.pugx.org/taha-rafi/php-zkteco/v)](https://packagist.org/packages/taha-rafi/php-zkteco)
+[![Total Downloads](https://poser.pugx.org/taha-rafi/php-zkteco/downloads)](https://packagist.org/packages/taha-rafi/php-zkteco)
+[![GitHub Stars](https://img.shields.io/github/stars/taha-rafi/php-zkteco?style=flat&logo=github&color=yellow)](https://github.com/taha-rafi/php-zkteco/stargazers)
+[![License](https://poser.pugx.org/taha-rafi/php-zkteco/license)](https://github.com/taha-rafi/php-zkteco/blob/main/LICENSE)
+
+</div>
+
+```bash
+composer require taha-rafi/php-zkteco
+```
+
+- ⚡ **Direct Hardware `ATT_LOG` Writer (`CMD_SET_DATA = 3001`)**: Write Check-In / Check-Out attendance punches directly into the physical ZKTeco machine's internal SQLite database (`markAttendance()`, `writeAttendanceToDevice()`, `pushAttendance()`).
+- 🗑️ **Selective Hardware Deletion (`CMD_TIME_ATTLOG_DELE = 10005`)**: Delete specific attendance logs by time range (`deleteAttendanceByTimeRange()`) without wiping the entire machine.
+- 🔌 **Dual-Protocol Socket Engine (`auto`, `tcp`, `udp`)**: Full native ZKTeco TCP framing (`\x50\x50\x82\x7d`) with automatic UDP fallback and 100% native `MakeKey` Comm Key authentication (`CMD_AUTH 1102`).
+- ☁️ **ADMS / iClock Cloud Push Server & HMAC-SHA256 Webhooks**: Built-in `AdmsServer` (`POST /iclock/cdata`), outbound `postAttendance()` cloud sync with incremental cursor deduplication, and real-time `listenRealTime()` (`CMD_REG_EVENT 500`) webhook dispatcher.
 
 ---
 
@@ -94,8 +117,8 @@
 
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
+| 🔐 [**php-zkteco v2.0**](https://github.com/taha-rafi/php-zkteco) | `PHP 8.x`, `TCP/UDP Sockets`, `ADMS`, `Webhooks` | **World's first ZKTeco library** with Direct Hardware `ATT_LOG` Attendance Writer (`CMD_SET_DATA 3001`), selective log deletion, Dual TCP/UDP engine, native CommKey auth, ADMS Push Server & HMAC-SHA256 Webhooks. |
 | 📊 [**Apex Algo Trader**](https://github.com/taha-rafi/apex-algo-trader) | `Python`, `Hyperliquid DEX`, `Algo Trading` | Autonomous algorithmic trading bot for Perpetual DEX with real-time WebSocket market feeds, leverage risk controls & order routing. |
-| 🔐 [**php-zkteco**](https://github.com/taha-rafi/php-zkteco) | `PHP 8.x`, `Socket Protocol`, `Packagist` | Pure native socket library for ZKTeco Biometric Devices with reverse-engineered CommKey auth. 100% native PHP implementation. |
 | 🏛️ **USPTO Trademark Intelligence Engine** | `Python`, `TSDR & ODP APIs`, `OpenPyXL` | Dual-tier USPTO trademark data pipeline with live serial discovery, daily bulk XML processing, contact enrichment & safe XLSX/CSV export. |
 | 🔍 **Craigslist Lead Intelligence & Automation** | `Python`, `Selenium`, `CapSolver`, `BS4` | High-throughput search scraper & contact reveal pipeline with automated captcha solving, multi-worker concurrency & spreadsheet generation. |
 | 🎬 [**ShortGenie**](https://github.com/taha-rafi/shortgenie) | `React`, `TypeScript`, `Google Gemini AI` | AI-powered automated video studio creating viral short-form scripts, visual scene prompts & synchronized audio narratives. |
@@ -126,6 +149,7 @@
   <p>Available for technical leadership, enterprise systems consulting, and scalable software architecture.</p>
 
   [![Website](https://img.shields.io/badge/Visit-taharafi.com-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://taharafi.com)
+  [![Email](https://img.shields.io/badge/Email-connect@taharafi.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@taharafi.com)
   [![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/taha-rafi)
   [![Twitter](https://img.shields.io/badge/Follow_on-X-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/taha__rafi)
 </div>
