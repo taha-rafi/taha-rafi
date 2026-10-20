@@ -1,0 +1,45 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/email-address-confirmation",
+    "version": "0.1",
+    "contractDigest": "sha-256:fc9d8a4fb3f3065f93bd53d1f9238b13df63186588d3f3f44982d5813412e282"
+  },
+  "@id": "urn:uuid:fa3be221-c7a2-4a47-a2ef-c11c97a76f08",
+  "issuedAt": "2026-10-20T05:30:00Z",
+  "expiresAt": "2026-10-21T05:20:00Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://newsletter.example.org",
+    "tenant": "urn:demo:newsletter:creative-lab"
+  },
+  "recipient": "subscriber@example.net",
+  "subject": {
+    "id": "urn:demo:creative-lab:signup:req-2042",
+    "title": "Confirm your address for Creative Lab engineering notes"
+  },
+  "terms": {
+    "id": "urn:demo:creative-lab:email-confirmation:2042",
+    "version": "request-2042-rev1"
+  },
+  "human": {
+    "url": "https://newsletter.example.org/confirm/req-2042"
+  },
+  "details": {
+    "mailbox": "subscriber@example.net",
+    "requestId": "urn:demo:creative-lab:signup:req-2042",
+    "requestedAt": "2026-10-20T05:29:00Z",
+    "purpose": "communication-address",
+    "serviceName": "Creative Lab Engineering Notes"
+  },
+  "operations": [
+    {
+      "id": "confirm",
+      "capability": {
+        "url": "https://newsletter.example.org/confirm-token/demo-request-2042"
+      }
+    }
+  ]
+}
