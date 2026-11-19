@@ -117,6 +117,7 @@ composer require taha-rafi/php-zkteco
 
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
+| 🔒 [**Hazepane**](https://chromewebstore.google.com/detail/hazepane-for-whatsapp-web/bgillkoccmdfeohclchdicihkkmggnnh) | `Chrome Extensions Manifest V3`, `JavaScript` | A **privacy extension for WhatsApp Web**: blurs chats, hides read receipts and typing, and exports chats/contacts to PDF/CSV/JSON — entirely on-device, no server, no analytics. Live on the Chrome Web Store. |
 | 🔐 [**php-zkteco v2.0**](https://github.com/taha-rafi/php-zkteco) | `PHP 8.x`, `TCP/UDP Sockets`, `ADMS`, `Webhooks` | **World's first ZKTeco library** with Direct Hardware `ATT_LOG` Attendance Writer (`CMD_SET_DATA 3001`), selective log deletion, Dual TCP/UDP engine, native CommKey auth, ADMS Push Server & HMAC-SHA256 Webhooks. |
 | 📊 [**Apex Algo Trader**](https://github.com/taha-rafi/apex-algo-trader) | `Python`, `Hyperliquid DEX`, `Algo Trading` | Autonomous algorithmic trading bot for Perpetual DEX with real-time WebSocket market feeds, leverage risk controls & order routing. |
 | 🏛️ **USPTO Trademark Intelligence Engine** | `Python`, `TSDR & ODP APIs`, `OpenPyXL` | Dual-tier USPTO trademark data pipeline with live serial discovery, daily bulk XML processing, contact enrichment & safe XLSX/CSV export. |
